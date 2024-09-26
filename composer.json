@@ -1,0 +1,43 @@
+{
+    "name": "artyom-e/unit-converter",
+    "description": "A simple PHP-based unit converter",
+    "keywords": [
+        "artyom-e",
+        "unit-converter"
+    ],
+    "homepage": "https://github.com/artyom-e/unit-converter-php",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Artem Yeremenko",
+            "email": "a7776e@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ArtyomE\\UnitConverter\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.3"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.64",
+        "pestphp/pest": "^3.2",
+        "phpstan/phpstan": "^1.12"
+    },
+    "scripts": {
+        "analyse" : "vendor/bin/phpstan analyse",
+        "baseline": "vendor/bin/phpstan --generate-baseline",
+        "code-style": "./vendor/bin/php-cs-fixer fix src",
+        "test": "./vendor/bin/pest"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}

@@ -1,0 +1,17 @@
+includes:
+    - phpstan-baseline.neon
+
+parameters:
+
+    paths:
+        - src
+        - tests
+
+    # The level 9 is the highest level
+    level: 8
+
+    ignoreErrors:
+
+    excludePaths:
+
+    editorUrl: 'phpstorm://open?file=%%file%%&line=%%line%%'

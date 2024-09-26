@@ -1,0 +1,11 @@
+services:
+  php:
+    image: php:8.3
+    volumes:
+      - ./:/var/www/html
+    working_dir: /var/www/html
+
+  composer:
+    image: composer:latest
+    volumes:
+      - ./:/app
