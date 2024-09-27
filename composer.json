@@ -31,7 +31,7 @@
     "scripts": {
         "analyse" : "vendor/bin/phpstan analyse",
         "baseline": "vendor/bin/phpstan --generate-baseline",
-        "code-style": "./vendor/bin/php-cs-fixer fix src",
+        "code-style": "./vendor/bin/php-cs-fixer --allow-risky=yes fix",
         "test": "./vendor/bin/pest"
     },
     "config": {
