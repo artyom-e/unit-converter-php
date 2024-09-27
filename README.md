@@ -19,6 +19,7 @@ use ArtyomE\UnitConverter\Converters\Temperature\CelsiusConverter;
 
 $converter = new CelsiusConverter(10);
 $converter->toFahrenheit(); //50.0
+$converter->toKelvin(); //283.15
 ```
 
 ## Available Converters
@@ -30,7 +31,11 @@ $converter->toFahrenheit(); //50.0
   - Feet to Meters
 - Temperature:
   - Celsius to Fahrenheit
+  - Celsius to Kelvin
   - Fahrenheit to Celsius
+  - Fahrenheit to Kelvin
+  - Kelvin to Fahrenheit 
+  - Kelvin to Celsius 
 - Weight:
   - Kilograms to Pounds
   - Pounds to Kilograms
