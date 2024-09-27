@@ -8,6 +8,7 @@ return (new PhpCsFixer\Config())
         '@PER-CS' => true,
         '@PHP83Migration' => true,
         '@PSR12' => true,
+        '@PhpCsFixer' => true,
         'strict_param' => true,
         'declare_strict_types' => true,
         'array_syntax' => ['syntax' => 'short'],
