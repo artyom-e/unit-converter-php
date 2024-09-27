@@ -10,6 +10,6 @@ class FahrenheitToCelsiusFormula implements FormulaInterface
 {
     public function apply(float $value): float
     {
-        return ($value - 32) * 5 / 9;
+        return round(($value - 32) * 5 / 9, 8);
     }
 }

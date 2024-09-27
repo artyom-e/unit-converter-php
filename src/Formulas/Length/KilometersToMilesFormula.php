@@ -10,6 +10,6 @@ class KilometersToMilesFormula implements FormulaInterface
 {
     public function apply(float $value): float
     {
-        return $value * 0.62137;
+        return round($value * 0.62137, 8);
     }
 }
