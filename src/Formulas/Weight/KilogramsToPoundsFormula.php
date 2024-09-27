@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace ArtyomE\UnitConverter\Formulas\Weight;
 
 use ArtyomE\UnitConverter\Formulas\FormulaInterface;

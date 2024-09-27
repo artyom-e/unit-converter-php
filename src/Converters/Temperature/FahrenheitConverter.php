@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace ArtyomE\UnitConverter\Converters\Temperature;
 
 use ArtyomE\UnitConverter\Converters\BaseConverter;
