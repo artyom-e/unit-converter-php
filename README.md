@@ -4,7 +4,7 @@ Unit Converter is a flexible and extensible PHP package that allows you to conve
 
 ## Requirements
 
-- PHP 8.3 or higher
+- PHP 8.2 or higher
 
 ## Installation
 
