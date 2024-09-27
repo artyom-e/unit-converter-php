@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ArtyomE\UnitConverter\Formulas\Length;
+namespace ArtyomE\UnitConverter\Formulas\Distance;
 
 use ArtyomE\UnitConverter\Formulas\FormulaInterface;
 

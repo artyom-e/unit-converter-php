@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace ArtyomE\UnitConverter\Converters\Length;
+namespace ArtyomE\UnitConverter\Converters\Distance;
 
 use ArtyomE\UnitConverter\Converters\BaseConverter;
-use ArtyomE\UnitConverter\Formulas\Length\KilometersToMilesFormula;
+use ArtyomE\UnitConverter\Formulas\Distance\KilometersToMilesFormula;
 
 class KilometersConverter extends BaseConverter
 {

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace ArtyomE\UnitConverter\Formulas\Length;
+namespace ArtyomE\UnitConverter\Formulas\Distance;
 
 use ArtyomE\UnitConverter\Formulas\FormulaInterface;
 
-class MilesToKilometersFormula implements FormulaInterface
+class FeetToMetersFormula implements FormulaInterface
 {
     public function apply(float $value): float
     {
-        return $value * 1.60934;
+        return $value * 0.3048;
     }
 }

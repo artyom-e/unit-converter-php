@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use ArtyomE\UnitConverter\Formulas\Length\MilesToKilometersFormula;
+use ArtyomE\UnitConverter\Formulas\Distance\MilesToKilometersFormula;
 
 it('can convert miles to kilometers', function () {
     $formula = new MilesToKilometersFormula();
