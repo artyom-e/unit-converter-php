@@ -7,6 +7,7 @@ namespace ArtyomE\UnitConverter\Converters\Temperature;
 use ArtyomE\UnitConverter\Converters\BaseConverter;
 use ArtyomE\UnitConverter\Formulas\Temperature\CelsiusToFahrenheitFormula;
 use ArtyomE\UnitConverter\Formulas\Temperature\CelsiusToKelvinFormula;
+use ArtyomE\UnitConverter\Formulas\Temperature\CelsiusToRankineFormula;
 
 class CelsiusConverter extends BaseConverter
 {
@@ -18,5 +19,10 @@ class CelsiusConverter extends BaseConverter
     public function toKelvin(): float
     {
         return $this->resolveFormula(CelsiusToKelvinFormula::class);
+    }
+
+    public function toRankine(): float
+    {
+        return $this->resolveFormula(CelsiusToRankineFormula::class);
     }
 }

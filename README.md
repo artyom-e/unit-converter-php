@@ -20,6 +20,7 @@ use ArtyomE\UnitConverter\Converters\Temperature\CelsiusConverter;
 $converter = new CelsiusConverter(10);
 $converter->toFahrenheit(); //50.0
 $converter->toKelvin(); //283.15
+$converter->toRankine(); //509.67
 ```
 
 ## Available Converters
@@ -32,10 +33,16 @@ $converter->toKelvin(); //283.15
 - Temperature:
   - Celsius to Fahrenheit
   - Celsius to Kelvin
+  - Celsius to Rankine
   - Fahrenheit to Celsius
   - Fahrenheit to Kelvin
+  - Fahrenheit to Rankine
   - Kelvin to Fahrenheit 
   - Kelvin to Celsius 
+  - Kelvin to Rankine 
+  - Rankine to Celsius
+  - Rankine to Fahrenheit
+  - Rankine to Kelvin
 - Weight:
   - Kilograms to Pounds
   - Pounds to Kilograms
